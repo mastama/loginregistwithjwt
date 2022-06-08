@@ -21,7 +21,6 @@ public class JwtConfiguration extends WebSecurityConfigurerAdapter {
     private JpaUserDetailsService jpaUserDetailsService;
     @Autowired
     private JwtAuthenticationEntryPoint jwtAuthEntryPoint;
-    //
     @Autowired
     private JwtAuthenticationFilter jwtFilter;
 
